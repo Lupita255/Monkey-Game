@@ -40,6 +40,8 @@ function setup() {
 }
 
 function draw() { 
+  
+   drawSprites();
 
   if(gameState===PLAY){
   
@@ -74,8 +76,6 @@ function draw() {
   
     FoodGroup.destroyEach();
     obstacleGroup.destroyEach();
-    
-  drawSprites();
   
     textSize(30);
     fill(255);
