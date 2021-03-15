@@ -74,13 +74,14 @@ function draw() {
   
     FoodGroup.destroyEach();
     obstacleGroup.destroyEach();
+    
+  drawSprites();
   
     textSize(30);
     fill(255);
     text("Game Over!",300,220);
   }
 
-  drawSprites();
 
   stroke("white");
   textSize(20);
